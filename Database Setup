@@ -1,0 +1,7 @@
+CREATE TABLE Employee (
+  EmpID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Salary DECIMAL(10,2)
+);
+
+INSERT INTO Employee VALUES (101, 'Amit', 50000), (102, 'Priya', 55000);
